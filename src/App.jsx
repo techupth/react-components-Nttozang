@@ -6,6 +6,7 @@ function App() {
       <Header/>
       <Main/>
       <Section/>
+      <Footer/>
     </div>
   );
 }
@@ -33,7 +34,7 @@ function Header(){
   </header>
   )
 }
-export default App;
+
 
 function Main(){
   return(
@@ -121,3 +122,5 @@ function AddtoCart(){
     <button className="add-to-cart-button-secondary">Add to Cart</button>
   )
 }
+
+export default App;
